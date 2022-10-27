@@ -9,12 +9,18 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
     <style>
-    body {
+        th {
+    position: sticky;
+    top: 0;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+}
+
+body {
   font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #efefef;
   font-weight: 300; }
@@ -74,6 +80,10 @@ h2 {
 Reference: https://colorlib.com/wp/template/css-table-12/
 */
     </style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
     <title>Table #2</title>
@@ -150,6 +160,66 @@ Reference: https://colorlib.com/wp/template/css-table-12/
               <td>+92 020 3994 929</td>
               <td>College</td>
             </tr>
+
+            <td>9548</td>
+            <td>Gaspar Semenov</td>
+            <td>
+              Illustrator
+              <small class="d-block">Far far away, behind the word mountains</small>
+            </td>
+            <td>+92 020 3994 929</td>
+            <td>College</td>
+          </tr>
+
+          <td>9548</td>
+          <td>Gaspar Semenov</td>
+          <td>
+            Illustrator
+            <small class="d-block">Far far away, behind the word mountains</small>
+          </td>
+          <td>+92 020 3994 929</td>
+          <td>College</td>
+        </tr>
+
+        <td>9548</td>
+        <td>Gaspar Semenov</td>
+        <td>
+          Illustrator
+          <small class="d-block">Far far away, behind the word mountains</small>
+        </td>
+        <td>+92 020 3994 929</td>
+        <td>College</td>
+      </tr>
+
+      <td>9548</td>
+      <td>Gaspar Semenov</td>
+      <td>
+        Illustrator
+        <small class="d-block">Far far away, behind the word mountains</small>
+      </td>
+      <td>+92 020 3994 929</td>
+      <td>College</td>
+    </tr>
+
+    <td>9548</td>
+    <td>Gaspar Semenov</td>
+    <td>
+      Illustrator
+      <small class="d-block">Far far away, behind the word mountains</small>
+    </td>
+    <td>+92 020 3994 929</td>
+    <td>College</td>
+  </tr>
+
+  <td>9548</td>
+  <td>Gaspar Semenov</td>
+  <td>
+    Illustrator
+    <small class="d-block">Far far away, behind the word mountains</small>
+  </td>
+  <td>+92 020 3994 929</td>
+  <td>College</td>
+</tr>
             
           </tbody>
         </table>
@@ -159,8 +229,9 @@ Reference: https://colorlib.com/wp/template/css-table-12/
     </div>
 
   </div>
-    
-    
+    /*
+    Reference: https://colorlib.com/wp/template/css-table-12/
+    */
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
