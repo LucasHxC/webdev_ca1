@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<!--Get your code at fontawesome.com-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         th {
     position: sticky;
@@ -18,6 +21,10 @@
 thead {
     position: sticky;
     top: 0;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e0e0;
 }
 
 body {
@@ -31,7 +38,7 @@ p {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; color: brown;}
 
 a {
   -webkit-transition: .3s all ease;
@@ -44,7 +51,7 @@ a {
   padding: 7rem 0; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 20px;  }
 
 .custom-table {
   min-width: 900px; }
@@ -76,6 +83,10 @@ h2 {
     margin-bottom: 15px; }
     .custom-table .box td, .custom-table .box th {
       border: none !important; }
+
+      .key {
+	vertical-align: text-top;
+    width: 1rem;}
 /*
 Reference: https://colorlib.com/wp/template/css-table-12/
 */
@@ -86,7 +97,7 @@ Reference: https://colorlib.com/wp/template/css-table-12/
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Table #2</title>
+    <title>Table Employee</title>
   </head>
   <body>
   
@@ -94,7 +105,7 @@ Reference: https://colorlib.com/wp/template/css-table-12/
   <div class="content">
     
     <div class="container">
-      <h2 class="mb-5">Table #2</h2>
+      <h2 class="mb-5">EMPLOYEE</h2>
 
       <div class="table-responsive">
 
@@ -102,11 +113,14 @@ Reference: https://colorlib.com/wp/template/css-table-12/
           <thead>
             <tr>
               
-              <th scope="col">Order</th>
+              <th scope="col">Emp_ID (PK)<img src="https://www.aff.pt/img/key-solid.svg" class="key" alt="Primary Key"></th>
               <th scope="col">Name</th>
-              <th scope="col">Occupation</th>
-              <th scope="col">Contact</th>
-              <th scope="col">Education</th>
+              <th scope="col">DOB</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Job_salary</th>
+              <th scope="col">Hire_date</th>
+              <th scope="col">Role_name</th>
+              <th scope="col">PPSN</th>
             </tr>
           </thead>
           <tbody>
@@ -115,110 +129,130 @@ Reference: https://colorlib.com/wp/template/css-table-12/
               
                       
                       <td>
-                        1392
+                        1
                       </td>
-                      <td>James Yates</td>
+                      <td>LUCAS AUGUSTO</td>
                       <td>
-                        Web Designer
-                        <small class="d-block">Far far away, behind the word mountains</small>
+                        02/05/1978
                       </td>
-                      <td>+63 983 0962 971</td>
-                      <td>NY University</td>
+                      <td>MALE</td>
+                      <td>80500,00</td>
+                      <td>02/04/1996</td>
+                      <td>CEO</td>
+                      <td>5478853S</td>
             
             </tr>
 
             <tr>
               
-              <td>4616</td>
-              <td>Matthew Wasil</td>
+              <td>2</td>
+              <td>TIAGO SILVA</td>
               <td>
-                Graphic Designer
-                <small class="d-block">Far far away, behind the word mountains</small>
+                02/04/1989
               </td>
-              <td>+02 020 3994 929</td>
-              <td>London College</td>
+              <td>MALE</td>
+              <td>77500,00</td>
+              <td>01/04/1994</td>
+              <td>HR MANAGER</td>
+              <td>247932SD</td>
             </tr>
             <tr>
               
-              <td>9841</td>
-              <td>Sampson Murphy</td>
+              <td>3</td>
+              <td>ANNA MURPHY</td>
               <td>
-                Mobile Dev
-                <small class="d-block">Far far away, behind the word mountains</small>
+                12/04/1979
               </td>
-              <td>+01 352 1125 0192</td>
-              <td>Senior High</td>
+              <td>FEMALE</td>
+              <td>77500,00</td>
+              <td>05/04/2020</td>
+              <td>HR MANAGER</td>
+              <td>2541856D</td>
             </tr>
             <tr>
               
-              <td>9548</td>
-              <td>Gaspar Semenov</td>
+              <td>4</td>
+              <td>JOHN OTTO</td>
               <td>
-                Illustrator
-                <small class="d-block">Far far away, behind the word mountains</small>
+                25/07/1982
               </td>
-              <td>+92 020 3994 929</td>
-              <td>College</td>
+              <td>MALE</td>
+              <td>40000,00</td>
+              <td>05/08/2008</td>
+              <td>PHOTOGRAPHER</td>
+              <td>25433DDI</td>
             </tr>
 
-            <td>9548</td>
-            <td>Gaspar Semenov</td>
+            <td>5</td>
+            <td>PETER HENRY</td>
             <td>
-              Illustrator
-              <small class="d-block">Far far away, behind the word mountains</small>
+              31/03/1977
             </td>
-            <td>+92 020 3994 929</td>
-            <td>College</td>
+            <td>MALE</td>
+            <td>30000,00</td>
+            <td>02/08/2006</td>
+            <td>RECEPTIONIST</td>
+            <td>4852476S</td>
           </tr>
 
-          <td>9548</td>
-          <td>Gaspar Semenov</td>
+          <td>6</td>
+          <td>MARIA PETROVA</td>
           <td>
-            Illustrator
-            <small class="d-block">Far far away, behind the word mountains</small>
+            22/08/1997
           </td>
-          <td>+92 020 3994 929</td>
-          <td>College</td>
+          <td>NON-BINARY</td>
+          <td>28000,00</td>
+          <td>02/09/2004</td>
+          <td>WEB DEV</td>
+          <td>224248EE</td>
         </tr>
 
-        <td>9548</td>
-        <td>Gaspar Semenov</td>
+        <td>7</td>
+        <td>JOYCE ALMEIDA</td>
         <td>
-          Illustrator
-          <small class="d-block">Far far away, behind the word mountains</small>
+          30/09/1988
         </td>
-        <td>+92 020 3994 929</td>
-        <td>College</td>
+        <td>FEMALE</td>
+        <td>27000,00</td>
+        <td>04/06/2008</td>
+        <td>SALES REP</td>
+        <td>755221ER</td>
       </tr>
 
-      <td>9548</td>
-      <td>Gaspar Semenov</td>
+      <td>8</td>
+      <td>PATRICIA DOYLE</td>
       <td>
-        Illustrator
-        <small class="d-block">Far far away, behind the word mountains</small>
+        22/05/1987
       </td>
-      <td>+92 020 3994 929</td>
-      <td>College</td>
+      <td>FEMALE</td>
+      <td>23000,00</td>
+      <td>05/05/2007</td>
+      <td>SOCIAL MEDIA</td>
+      <td>422697VQ</td>
     </tr>
 
-    <td>9548</td>
-    <td>Gaspar Semenov</td>
+    <td>9</td>
+    <td>LAYLA DOMINIQUE</td>
     <td>
-      Illustrator
-      <small class="d-block">Far far away, behind the word mountains</small>
+      05/10/1996
     </td>
-    <td>+92 020 3994 929</td>
-    <td>College</td>
+    <td>FEMALE</td>
+    <td>23000,00</td>
+    <td>05/07/2021</td>
+    <td>SOCIAL MEDIA</td>
+    <td>759242WE</td>
   </tr>
 
-  <td>9548</td>
-  <td>Gaspar Semenov</td>
+  <td>10</td>
+  <td>JOSEPH MOORE</td>
   <td>
-    Illustrator
-    <small class="d-block">Far far away, behind the word mountains</small>
+    22/09/1998
   </td>
-  <td>+92 020 3994 929</td>
-  <td>College</td>
+  <td>MALE</td>
+  <td>45000,00</td>
+  <td>06/09/2020</td>
+  <td>ACCOUNTANT</td>
+  <td>2478999A</td>
 </tr>
             
           </tbody>
@@ -229,9 +263,6 @@ Reference: https://colorlib.com/wp/template/css-table-12/
     </div>
 
   </div>
-    /*
-    Reference: https://colorlib.com/wp/template/css-table-12/
-    */
 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
